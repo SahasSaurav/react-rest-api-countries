@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  @apply bg-gray-900;
+}
