@@ -7,9 +7,6 @@ import DetailsPage from "./component/DetailsPage";
 import NotFoundPage from "./component/NotFoundPage";
 
 class App extends Component {
-  constructor(props){
-    super(props);
-  }
   state = {
     all: [],
     countries: [],
