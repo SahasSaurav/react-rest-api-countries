@@ -76,7 +76,7 @@ class App extends Component {
 
     const countryOption = {
       thersold: 0,
-      rootMargin: "0px 0px 50px 0px",
+      rootMargin: "-100px 0px 00px 0px",
     };
 
     const countriesObserver = new IntersectionObserver(
