@@ -3,13 +3,7 @@ import Details from "./Details";
 
 const CountryCard = (props) => {
   return (
-    <div className="country max-w-xs bg-gray-800 rounded-lg mx-auto sm:mx-0 cursor-pointer" style={{
-      height:"375px",
-      transform:"scale(1.1) translateY(100%) ",
-      opacity:".25",
-      transition:"opacity 350ms ease-out, transform  400ms ease-out",
-      transitionDelay:"150ms"
-    }}>
+    <div className="country max-w-xs bg-gray-800 rounded-lg mx-auto sm:mx-0 cursor-pointer"  >
       <div className="h-full flex flex-col items-center  rounded-lg overflow-hidden">
         <div className="overflow-hidden">
           <img

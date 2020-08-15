@@ -19,7 +19,7 @@ class App extends Component {
   }
   componentDidUpdate() {
     this.searchHandler();
-    this.lazyLoad();
+    // this.lazyLoad();
   }
 
   fetchCountry = async () => {
